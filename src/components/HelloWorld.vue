@@ -28,10 +28,14 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <test-component />
 </template>
 
 <script>
+import TestComponent from './TestComponent.vue'
+
 export default {
+  components: { TestComponent },
   name: 'HelloWorld',
   props: {
     msg: String
