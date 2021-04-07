@@ -48,29 +48,6 @@ export default {
         ScrollTrigger.defaults({
             toggleActions: "restart pause resume pause",
         });
-
-        // gsap.to(".orange p", {
-        //     scrollTrigger: ".orange",
-        //     duration: 2,
-        //     rotation: 360,
-        // });
-
-        // gsap.to(".red", {
-        //     scrollTrigger: {
-        //         trigger: ".red",
-        //         toggleActions: "restart pause reverse pause",
-        //     },
-        //     duration: 1,
-        //     ease: "none",
-        // });
-
-        // gsap.to(".yoyo p", {
-        //     scrollTrigger: ".yoyo",
-        //     scale: 2,
-        //     repeat: -1,
-        //     yoyo: true,
-        //     ease: "power2",
-        // });
     },
 };
 </script>
@@ -83,14 +60,17 @@ export default {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
 }
 
 .panel {
     scroll-snap-align: start;
     height: 100vh;
+    max-width: 50%;
 }
 
 .red {
@@ -107,5 +87,10 @@ export default {
 
 .button {
     position: fixed;
+}
+
+.item {
+    margin: auto;
+    width: 50%;
 }
 </style>

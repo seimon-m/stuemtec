@@ -1,5 +1,5 @@
 <template>
-  <div class="chunk">
+  <div class="title">
     <h1>Digitale Zukünfte: Künstliche Intelligenz</h1>
     <p>
       Künstliche Intelligenz (Artifical Intelligence), Maschinelles Lernen
@@ -19,10 +19,9 @@ export default {
 </script>
 
 <style scoped>
-.chunk {
+.title {
   display: flex;
   flex-direction: column;
-  width: 50%;
   height: 100%;
   padding: 24px;
   margin: 24px 0 24px 0;
@@ -30,13 +29,11 @@ export default {
 }
 
 h1 {
-  text-align: left;
   font-size: 1.5em;
 }
 
 p {
   font-size: 1em;
   line-height: 1em;
-  text-align: left;
 }
 </style>

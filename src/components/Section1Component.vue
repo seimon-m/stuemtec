@@ -55,7 +55,6 @@ export default {
 .chunk {
   display: flex;
   flex-direction: column;
-  width: 50%;
   height: 100%;
   padding: 24px;
   margin: 24px 0 24px 0;
