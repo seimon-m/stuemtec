@@ -46,7 +46,19 @@
       <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
       <p>Wie Neuronale Netze ein „Selbst-Gefühl“ entwickeln</p>
       <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
-
+    </div>
+    <div class="card">
+      <h2>Arvind Narayanan</h2>
+      <p>How to recognize AI snake oil?</p>
+      <a href="https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf">https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf</a>
+    </div>
+    <div class="card">
+      <h2>Max Tegmark</h2>
+      <p>Text und Bilder weiter unten sowie folgende zwei Videos</p>
+      <a href="https://www.youtube.com/watch?v=3Om9ssTm194">https://www.youtube.com/watch?v=3Om9ssTm194</a>
+      <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592">https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a>
+      <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4">https://www.youtube.com/watch?v=oYmKOgeoOz4</a>
+      <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU">https://www.youtube.com/watch?v=Gi8LUnhP5yU</a>
     </div>
   </div>
 </template>

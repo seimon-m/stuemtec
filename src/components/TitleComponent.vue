@@ -1,6 +1,5 @@
 <template>
-  <div class="chunk">
-    <div class="card">
+    <content-card>
       <p class="description">SPARK H20</p>
       <h1>Digitale Zukünfte: Künstliche Intelligenz</h1>
       <p>
@@ -11,13 +10,17 @@
         wird für Maschine Learning verwendet und immer mehr Smartphones haben
         eine NPU eingebaut.
       </p>
-    </div>
-  </div>
+    </content-card>
 </template>
 
 <script>
+import ContentCard from './ContentCard.vue';
+
 export default {
   name: "TitleComponent",
+  components: {
+    ContentCard,
+  }
 };
 </script>
 
@@ -58,8 +61,4 @@ p {
   text-align: left;
 }
 
-.description {
-  font-size: 0.75em;
-  margin: 0;
-}
 </style>

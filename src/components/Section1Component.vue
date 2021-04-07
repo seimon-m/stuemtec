@@ -1,6 +1,5 @@
 <template>
-  <div class="chunk">
-    <div class="card">
+    <content-card>
       <h1>1. Über AI Revolution auf Wait but Why von Tim Urban</h1>
       <ol>
         <li>
@@ -43,43 +42,18 @@
           posts multiple times.
         </li>
       </ol>
-    </div>
-  </div>
+    </content-card>
 </template>
 
 <script>
+import ContentCard from './ContentCard.vue';
 export default {
+  components: { ContentCard },
   name: "Section1Component",
 };
 </script>
 
 <style scoped>
-.chunk {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  position: static;
-  background-color: #f8f8f8;
-  box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  position: static;
-  width: 50%;
-  height: 100%;
-  padding: 24px;
-  margin: 24px 0 24px 0;
-
-  background-color: white;
-  box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
-  border-radius: 8px;
-}
-
 h1 {
   font-size: 1.5em;
   text-align: left;
