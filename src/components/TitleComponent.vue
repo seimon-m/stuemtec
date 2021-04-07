@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style scoped>
-.chunk {
+.title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +49,6 @@ export default {
 }
 
 h1 {
-  text-align: left;
   font-size: 1.5em;
   margin-top: 8px;
 }

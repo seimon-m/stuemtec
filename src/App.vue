@@ -9,11 +9,6 @@
 export default {
     name: "App",
     components: {},
-    data() {
-        return {
-            setFocus: false,
-        };
-    },
 };
 </script>
 <style>
@@ -23,7 +18,9 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 #nav {
@@ -40,8 +37,5 @@ export default {
 }
 body {
     background-color: #e5e5e5;
-}
-.separator {
-    margin: 20px;
 }
 </style>
