@@ -16,7 +16,7 @@
         </section>
 
         <section class="panel blue yoyo">
-            <title-component />
+            <exercises-component />
         </section>
     </div>
 </template>
@@ -26,6 +26,7 @@ import ButtonIcon from "../components/ButtonIcon.vue";
 import TitleComponent from "../components/TitleComponent.vue";
 import IntroComponent from "../components/IntroComponent.vue";
 import Section1Component from "../components/Section1Component.vue";
+import ExercisesComponent from '../components/ExercisesComponent.vue';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -38,6 +39,7 @@ export default {
         TitleComponent,
         IntroComponent,
         Section1Component,
+        ExercisesComponent
     },
     methods: {
         goToClassic() {
@@ -70,30 +72,21 @@ export default {
 .panel {
     scroll-snap-align: start;
     height: 100vh;
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .red {
-    background-color: #cf3535;
+    /* background-color: #cf3535; */
 }
 
 .orange {
-    background-color: #d38d3c;
+    /* background-color: #d38d3c; */
 }
 
 .blue {
-    background-color: #2f20b3;
+    /* background-color: #2f20b3; */
 }
 
 .button {
     position: fixed;
-}
-
-.item {
-    margin: auto;
-    width: 50%;
 }
 </style>
