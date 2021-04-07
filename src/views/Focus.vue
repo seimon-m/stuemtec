@@ -8,24 +8,24 @@
         </section>
 
         <section class="panel orange">
-            <title-component />
+            <intro-component />
         </section>
 
         <section class="panel red">
-            <title-component />
+            <section-1-component />
         </section>
 
         <section class="panel blue yoyo">
             <title-component />
         </section>
     </div>
-
-    
 </template>
 
 <script>
 import ButtonIcon from "../components/ButtonIcon.vue";
 import TitleComponent from "../components/TitleComponent.vue";
+import IntroComponent from "../components/IntroComponent.vue";
+import Section1Component from "../components/Section1Component.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -36,6 +36,8 @@ export default {
     components: {
         ButtonIcon,
         TitleComponent,
+        IntroComponent,
+        Section1Component,
     },
     methods: {
         goToClassic() {
@@ -45,31 +47,30 @@ export default {
     mounted() {
         ScrollTrigger.defaults({
             toggleActions: "restart pause resume pause",
-            duration: 2,
         });
 
-        gsap.to(".orange p", {
-            scrollTrigger: ".orange",
-            duration: 2,
-            rotation: 360,
-        });
+        // gsap.to(".orange p", {
+        //     scrollTrigger: ".orange",
+        //     duration: 2,
+        //     rotation: 360,
+        // });
 
-        gsap.to(".red", {
-            scrollTrigger: {
-                trigger: ".red",
-                toggleActions: "restart pause reverse pause",
-            },
-            duration: 1,
-            ease: "none",
-        });
+        // gsap.to(".red", {
+        //     scrollTrigger: {
+        //         trigger: ".red",
+        //         toggleActions: "restart pause reverse pause",
+        //     },
+        //     duration: 1,
+        //     ease: "none",
+        // });
 
-        gsap.to(".yoyo p", {
-            scrollTrigger: ".yoyo",
-            scale: 2,
-            repeat: -1,
-            yoyo: true,
-            ease: "power2",
-        });
+        // gsap.to(".yoyo p", {
+        //     scrollTrigger: ".yoyo",
+        //     scale: 2,
+        //     repeat: -1,
+        //     yoyo: true,
+        //     ease: "power2",
+        // });
     },
 };
 </script>
@@ -82,6 +83,9 @@ export default {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .panel {
@@ -91,7 +95,6 @@ export default {
 
 .red {
     background-color: #cf3535;
-    background-image: none;
 }
 
 .orange {
@@ -100,10 +103,6 @@ export default {
 
 .blue {
     background-color: #2f20b3;
-}
-
-.panel p {
-    font-size: 32px;
 }
 
 .button {

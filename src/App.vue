@@ -9,11 +9,6 @@
 export default {
     name: "App",
     components: {},
-    data() {
-        return {
-            setFocus: false,
-        };
-    },
 };
 </script>
 <style>
@@ -42,8 +37,5 @@ export default {
 }
 body {
     background-color: #e5e5e5;
-}
-.separator {
-    margin: 20px;
 }
 </style>
