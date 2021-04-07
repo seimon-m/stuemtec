@@ -8,11 +8,17 @@
     <div v-else>
         <Btn @click="setFocus = true">Focus</Btn>
         <iframe
-            width="100%"
-            height="100%"
-            frameborder="0"
             src="https://exorciser.ch/index"
-        />
+            style="border:0px #ffffff none;"
+            name="myiFrame"
+            scrolling="no"
+            frameborder="0"
+            marginheight="0px"
+            marginwidth="0px"
+            height="1200px"
+            width="1650px"
+            allowfullscreen
+        ></iframe>
     </div>
 </template>
 
@@ -33,3 +39,5 @@ export default {
     },
 };
 </script>
+
+<style scoped></style>
