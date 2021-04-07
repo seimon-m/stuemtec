@@ -28,7 +28,7 @@ export default {
   align-items: center;
 
   position: static;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
 }
 
