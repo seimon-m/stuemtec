@@ -71,6 +71,9 @@ export default {
     scroll-snap-align: start;
     height: 100vh;
     max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .red {
