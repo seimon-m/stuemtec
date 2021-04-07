@@ -1,43 +1,18 @@
 <template>
-    <div v-if="setFocus">
-        Now you see me
-        <ButtonIcon @click="setFocus = false" id="forward">Back</ButtonIcon>
-        <div class="separator" />
-        <Btn :href="'https://greensock.com/get-started/'">GSAP</Btn>
-    </div>
-    <div v-else>
-        <Btn @click="setFocus = true">Focus</Btn>
-        <iframe
-            src="https://exorciser.ch/index"
-            style="border:0px #ffffff none;"
-            name="myiFrame"
-            scrolling="no"
-            frameborder="0"
-            marginheight="0px"
-            marginwidth="0px"
-            height="1200px"
-            width="1650px"
-            allowfullscreen
-        ></iframe>
-    </div>
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-import ButtonIcon from "../components/ButtonIcon.vue";
-import Btn from "../components/Btn.vue";
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-    name: "About",
-    components: {
-        ButtonIcon,
-        Btn,
-    },
-    data() {
-        return {
-            setFocus: false,
-        };
-    },
-};
+  name: 'Home',
+  components: {
+    HelloWorld
+  }
+}
 </script>
-
-<style scoped></style>
