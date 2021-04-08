@@ -1,19 +1,21 @@
 <template>
-    <div class="button">
-        <toggle-button
-            nameLeft="Normal"
-            nameRight="Fokus"
-            startPosition="right"
-            @clicker="goToNormal($event)"
-        />
-    </div>
-    <div class="container">
-        <title-component />
-        <intro-component />
-        <exercises-component />
-        <section-1-component />
-        <section-2-component />
-        <section-3-component />
+    <div>
+        <div class="button">
+            <toggle-button
+                nameLeft="Normal"
+                nameRight="Fokus"
+                startPosition="right"
+                @clicker="goToNormal($event)"
+            />
+        </div>
+        <div class="container">
+            <title-component />
+            <intro-component />
+            <exercises-component />
+            <section-1-component />
+            <section-2-component />
+            <section-3-component />
+        </div>
     </div>
 </template>
 
