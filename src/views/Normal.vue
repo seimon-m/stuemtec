@@ -13,6 +13,7 @@
           </div>
         <div class="container_navlink">
           <a href="#">Rowdyruffs</a>
+          <span class="material-icons md-18">expand_more</span>
         </div>
         <div class="container_navlink layer2">
           <a href="#">DIGITECH.20</a>
