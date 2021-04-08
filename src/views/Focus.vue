@@ -1,21 +1,19 @@
 <template>
-    <div>
-        <div class="button">
-            <toggle-button
-                nameLeft="Normal"
-                nameRight="Fokus"
-                startPosition="right"
-                @clicker="goToNormal($event)"
-            />
-        </div>
-        <div class="container">
-            <title-component />
-            <intro-component />
-            <exercises-component />
-            <section-1-component />
-            <section-2-component />
-            <section-3-component />
-        </div>
+    <div class="button">
+        <toggle-button
+            nameLeft="Normal"
+            nameRight="Fokus"
+            startPosition="right"
+            @clicker="goToNormal($event)"
+        />
+    </div>
+    <div class="container">
+        <title-component />
+        <intro-component />
+        <exercises-component />
+        <section-1-component />
+        <section-2-component />
+        <section-3-component />
     </div>
 </template>
 
@@ -66,32 +64,6 @@ export default {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
-
-    /*display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* justify-content: center; */
-}
-
-/* .panel {
-  scroll-snap-align: center;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
-.red {
-    /* background-color: #cf3535; */
-}
-
-.orange {
-    /* background-color: #d38d3c; */
-}
-
-.blue {
-    /* background-color: #2f20b3; */
 }
 
 .button {
