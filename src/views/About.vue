@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <toggle-button id="switch" labelEnableText="True" labelDisableText="False" v-on:change="eventHandler"/>
+    <toggle-button id="switch" nameLeft="Normal" nameRight="Focus" @clicker="logger($event)"/>
   </div>
 </template>
 
@@ -20,6 +20,9 @@ export default {
   methods: {
         eventHandler(value) {
             console.log(value);
+        },
+        logger(m) {
+          console.log("Click: " + m)
         }
     }
 }
