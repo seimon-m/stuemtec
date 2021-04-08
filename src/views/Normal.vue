@@ -98,7 +98,7 @@
           <toggle-button
             nameLeft="Normal"
             nameRight="Fokus"
-            @clicker="logger($event)"
+            @clicker="goToFocus($event)"
           />
         </div>
         <div class="container__content">
@@ -289,9 +289,12 @@ export default {
     eventHandler(value) {
       console.log(value);
     },
-    logger(m) {
-      console.log("Click: " + m);
-    },
+    
+     goToFocus(message) {
+       if(message==="right"){
+         this.$router.push('/focus')
+       }
+      }
   },
 };
 </script>
