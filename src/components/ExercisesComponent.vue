@@ -19,7 +19,7 @@
       </ol>
       <p>Tragt ein, welchen Autor ihr Ausgewählt habt</p>
     </div>
-    <div class="card">
+    <content-card>
       <h2>Tim Urban</h2>
       <p>List folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
       <a
@@ -36,8 +36,8 @@
           >https://youtu.be/LUvNrm7yrJM?t=26m53s</a
         >
       </p>
-    </div>
-    <div class="card">
+    </content-card>
+    <content-card>
       <h2>Jürgen Schmiedhuber</h2>
       <p>Oder schaut Euch die folgenden drei Videos von Jürgen Schmiedhuber:</p>
       <p>Entwicklung der KI aus Sicht von KI Forschern</p>
@@ -46,26 +46,29 @@
       <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
       <p>Wie Neuronale Netze ein „Selbst-Gefühl“ entwickeln</p>
       <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
-    </div>
-    <div class="card">
+    </content-card>
+    <content-card>
       <h2>Arvind Narayanan</h2>
       <p>How to recognize AI snake oil?</p>
       <a href="https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf">https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf</a>
-    </div>
-    <div class="card">
+    </content-card>
+    <content-card>
       <h2>Max Tegmark</h2>
       <p>Text und Bilder weiter unten sowie folgende zwei Videos</p>
       <a href="https://www.youtube.com/watch?v=3Om9ssTm194">https://www.youtube.com/watch?v=3Om9ssTm194</a>
       <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592">https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a>
       <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4">https://www.youtube.com/watch?v=oYmKOgeoOz4</a>
       <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU">https://www.youtube.com/watch?v=Gi8LUnhP5yU</a>
-    </div>
+    </content-card>
   </div>
 </template>
 
 <script>
+import ContentCard from "./ContentCard.vue"
+
 export default {
   name: "ExerciseComponent",
+  components: { ContentCard },
 };
 </script>
 
