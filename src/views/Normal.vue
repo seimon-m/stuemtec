@@ -1,6 +1,5 @@
 <template>
-<Btn @click="goToFocus()">Focus</Btn>
-      <div class="headerimage"></div>
+ <div class="headerimage"></div>
   <div class="container__total">
     <div class="container__sidebar-main">
       <div class="container__sidebar">
@@ -78,7 +77,7 @@
           <div class="searchbar">Suchen</div>
         </div>
         <div class="container__switch">
-          <div class="switch">Switch</div>
+          <Btn @click="goToFocus()">Focus</Btn>
         </div>
         <div class="container__content">
           <div class="section">
@@ -240,10 +239,13 @@ a {
   position: relative;
   display: flex;
   width: 400px;
-  padding: 125px 24px;
+  padding-top: 125px;
+  padding-right: 24px;
+  padding-bottom: 125px;
+  padding-left: 24px;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   background-color: #fbfbfb;
 }
 
@@ -254,9 +256,9 @@ a {
 }
 
 .container_navlink {
-  width: 100%;
   padding: 16px;
   border-bottom: 1px solid #d9d9d9;
+  font-weight: 700;
 }
 
 .container_navlink.layer2 {
@@ -307,6 +309,10 @@ a {
   background-color: #fff;
 }
 
+..container__logo {
+  display: flex;
+}
+
 .container__content {
   display: flex;
   flex-direction: column;
@@ -324,12 +330,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.text-block {
-  padding: 5px 20px;
-  border-radius: 2px;
-  background-color: #f8f8f8;
 }
 
 .container__thema {
