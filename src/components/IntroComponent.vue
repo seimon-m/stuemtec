@@ -4,6 +4,7 @@
       <img
         src="http://piu.ch/robox/img/robox65.gif"
         href="http://piu.ch/robox/img/robox65.gif"
+        style="width:100%"
       />
       <p class="img-description">Robox 1986 Marc Pilloud &amp; Laro Schatzer</p>
       <br />

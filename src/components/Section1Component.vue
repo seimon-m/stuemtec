@@ -1,6 +1,8 @@
 <template>
   <section-wrapper>
-    <h2>1. Über AI Revolution auf Wait but Why von Tim Urban</h2>
+    <div class="header">
+      <h2>1. Über AI Revolution auf Wait but Why von Tim Urban</h2>
+    </div>
     <content-card>
       <strong>Narrow Intelligence (ANI)</strong>
       <br />
@@ -47,6 +49,14 @@ export default {
 </script>
 
 <style scoped>
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-  
+  position: static;
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
+}
 </style>

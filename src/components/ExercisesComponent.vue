@@ -1,6 +1,8 @@
 <template>
   <section-wrapper>
-    <h2>Auftrag im Unterricht</h2>
+    <div class="header">
+      <h2>Auftrag im Unterricht</h2>
+    </div>
     <content-card>
       <p>Wählt eine der zwei aktuelle Autoren über KI</p>
       <ol>
@@ -46,7 +48,7 @@
       <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU"
         >https://www.youtube.com/watch?v=Gi8LUnhP5yU</a
       >
-    </content-card> 
+    </content-card>
   </section-wrapper>
 </template>
 
@@ -61,5 +63,14 @@ export default {
 </script>
 
 <style scoped>
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
+  position: static;
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
+}
 </style>

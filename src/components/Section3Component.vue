@@ -1,8 +1,10 @@
 <template>
   <section-wrapper>
-    <h2>
-      3. Kritik an aktueller KI Diskussion von Marc
-    </h2>
+    <div class="header">
+      <h2>
+        3. Kritik an aktueller KI Diskussion von Marc
+      </h2>
+    </div>
     <content-card>
       <ul>
         <li>
@@ -41,4 +43,15 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: static;
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
+}
+</style>

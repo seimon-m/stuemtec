@@ -1,8 +1,10 @@
 <template>
   <section-wrapper>
-    <h2>
-      2. Leben 3.0 von Max Tegmark
-    </h2>
+    <div class="header">
+      <h2>
+        2. Leben 3.0 von Max Tegmark
+      </h2>
+    </div>
     <content-card>
       <p>
         <a href="https://www.amazon.de/dp/3550081456"
@@ -27,7 +29,7 @@
           und Software selbst.
         </li>
       </ul>
-      <img src="../assets/leben3-0.png" />
+      <img src="../assets/leben3-0.png" style="width:100%" />
     </content-card>
   </section-wrapper>
 </template>
@@ -38,11 +40,22 @@ import SectionWrapper from "./SectionWrapper.vue";
 
 export default {
   name: "Section2Component",
-  components: { 
+  components: {
     ContentCard,
     SectionWrapper,
-   },
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: static;
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
+}
+</style>
