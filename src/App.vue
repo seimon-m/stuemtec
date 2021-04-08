@@ -80,4 +80,8 @@ a{
     color: #42b983;
 }
 
+.img-description {
+    font-size: 0.75rem;
+    line-height: 1;
+}
 </style>
