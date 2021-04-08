@@ -51,6 +51,11 @@ p{
     font-size: 1rem;
 }
 
+a{
+    color: #D742FB;
+    text-decoration: none;
+}
+
 #app {
     width: 100%;
     height: 100%;

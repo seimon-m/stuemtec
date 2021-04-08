@@ -14,7 +14,7 @@
       <p>Tragt ein, welchen Autor ihr Ausgewählt habt</p>
     </content-card>
     <content-card>
-      <h2>Tim Urban</h2>
+      <h3>Tim Urban</h3>
       <p>Liest folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
       <a
         href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"
@@ -32,7 +32,7 @@
       </p>
     </content-card>
     <content-card>
-      <h2>Max Tegmark</h2>
+      <h3>Max Tegmark</h3>
       <p>Text und Bilder weiter unten sowie folgende zwei Videos</p>
       <a href="https://www.youtube.com/watch?v=3Om9ssTm194"
         >https://www.youtube.com/watch?v=3Om9ssTm194</a
