@@ -33,23 +33,26 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--black);
+    line-height: 1.6rem;
 }
 
 h1{
     font-size: 3.125rem;
+    line-height: 3.3rem;
 }
 
 h2{
     font-size: 2.375rem;
+    line-height: 2.375rem;
 }
 
 h3{
     font-size: 1.438rem;
+    line-height: 1.438rem;
 }
 
 p{
     font-size: 1rem;
-    line-height: 1.4rem;
 }
 
 a{
