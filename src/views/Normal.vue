@@ -4,7 +4,7 @@
     <div class="container__sidebar-main">
       <div class="container__sidebar">
         <div class="container__logo">
-          <div class="logo"></div
+          <div class="logo"></div>
           </div>
         <div class="container_navlink">
           <a href="#">Rowdyruffs</a>
