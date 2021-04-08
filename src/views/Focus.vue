@@ -3,39 +3,17 @@
     <ButtonIcon @click="goToClassic()" id="forward">Back</ButtonIcon>
   </div>
   <div class="container">
-    <div class="section">
-      <section class="panel blue">
-        <title-component />
-      </section>
-    </div>
+    <title-component />
 
-    <div class="section">
-      <section class="panel orange">
-        <intro-component />
-      </section>
-    </div>
+    <intro-component />
 
-    <div class="section">
-      <section class="panel blue yoyo">
-        <exercises-component />
-      </section>
-    </div>
+    <exercises-component />
 
-    <div class="section">
-      <section class="panel red">
-        <section-1-component />
-      </section>
-    </div>
-    <div class="section">
-      <section class="panel">
-        <section-2-component />
-      </section>
-    </div>
-    <div class="section">
-      <section class="panel">
-        <section-3-component />
-      </section>
-    </div>
+    <section-1-component />
+
+    <section-2-component />
+
+    <section-3-component />
   </div>
 </template>
 
@@ -49,6 +27,7 @@ import Section2Component from "../components/Section2Component.vue";
 import Section3Component from "../components/Section3Component.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+//import SectionWrapper from "../components/SectionWrapper.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -62,6 +41,7 @@ export default {
     ExercisesComponent,
     Section3Component,
     Section2Component,
+    //SectionWrapper,
   },
   methods: {
     goToClassic() {
@@ -91,20 +71,14 @@ export default {
   /* justify-content: center; */
 }
 
-.panel {
+/* .panel {
   scroll-snap-align: center;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
+} */
 
 .red {
   /* background-color: #cf3535; */

@@ -1,4 +1,5 @@
 <template>
+  <section-wrapper>
     <content-card>
       <img
         src="http://piu.ch/robox/img/robox65.gif"
@@ -24,18 +25,19 @@
         </li>
       </ul>
     </content-card>
+  </section-wrapper>
 </template>
 
 <script>
-import ContentCard from './ContentCard.vue';
+import ContentCard from "./ContentCard.vue";
+import SectionWrapper from "./SectionWrapper.vue";
 export default {
   name: "Intro-Component",
   components: {
-    ContentCard
-  }
+    ContentCard,
+    SectionWrapper,
+  },
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

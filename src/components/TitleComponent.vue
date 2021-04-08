@@ -1,4 +1,5 @@
 <template>
+<section-wrapper>
     <content-card>
       <p class="description">SPARK H20</p>
       <h1>Digitale Zukünfte: Künstliche Intelligenz</h1>
@@ -11,15 +12,18 @@
         eine NPU eingebaut.
       </p>
     </content-card>
+</section-wrapper>
 </template>
 
 <script>
 import ContentCard from './ContentCard.vue';
+import SectionWrapper from './SectionWrapper.vue';
 
 export default {
   name: "TitleComponent",
   components: {
     ContentCard,
+    SectionWrapper,
   }
 };
 </script>
