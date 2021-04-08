@@ -12,12 +12,23 @@ export default {
 };
 </script>
 <style>
+:root{
+   --white: #ffffff;
+   --black: #000000; 
+   --grey1: #fbfbfb;
+   --grey2: #f8f8f8;
+   --grey3: #d9d9d9;
+   --grey4: #b6b6b6;
+   --pink: #D742FB; 
+
+}
+
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: var(--black);
     width: 100%;
     height: 100%;
     overflow: hidden;
