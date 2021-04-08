@@ -1,16 +1,11 @@
 <template>
+  <section-wrapper>
+    <h2>Auftrag im Unterricht</h2>
     <content-card>
-      <h1>Auftrag im Unterricht</h1>
-      <p>Wählt eine der drei aktuelle Autoren über KI</p>
+      <p>Wählt eine der zwei aktuelle Autoren über KI</p>
       <ol>
         <li>
           <a href="">Tim Urban</a>
-        </li>
-        <li>
-          <a href="">Jürgen Schmiedhuber</a>
-        </li>
-        <li>
-          <a href="">Arvind Narayanan</a>
         </li>
         <li>
           <a href="">Max Tegmark</a>
@@ -18,7 +13,7 @@
       </ol>
       <p>Tragt ein, welchen Autor ihr Ausgewählt habt</p>
     </content-card>
-    <!-- <content-card>
+    <content-card>
       <h2>Tim Urban</h2>
       <p>Liest folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
       <a
@@ -37,59 +32,34 @@
       </p>
     </content-card>
     <content-card>
-      <h2>Jürgen Schmiedhuber</h2>
-      <p>Oder schaut Euch die folgenden drei Videos von Jürgen Schmiedhuber:</p>
-      <p>Entwicklung der KI aus Sicht von KI Forschern</p>
-      <a href="https://www.youtube.com/watch?v=_0prjrDuPiU">https://www.youtube.com/watch?v=_0prjrDuPiU</a>
-      <p>Was haben Neuronale Netze mit Datenkompression zu tun</p>
-      <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
-      <p>Wie Neuronale Netze ein „Selbst-Gefühl“ entwickeln</p>
-      <a href="https://youtu.be/h7F5sCLIbKQ?t=7m11s">https://youtu.be/h7F5sCLIbKQ?t=7m11s</a>
-    </content-card>
-    <content-card>
-      <h2>Arvind Narayanan</h2>
-      <p>How to recognize AI snake oil?</p>
-      <a href="https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf">https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf</a>
-    </content-card>
-    <content-card>
       <h2>Max Tegmark</h2>
       <p>Text und Bilder weiter unten sowie folgende zwei Videos</p>
-      <a href="https://www.youtube.com/watch?v=3Om9ssTm194">https://www.youtube.com/watch?v=3Om9ssTm194</a>
-      <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592">https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a>
-      <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4">https://www.youtube.com/watch?v=oYmKOgeoOz4</a>
-      <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU">https://www.youtube.com/watch?v=Gi8LUnhP5yU</a>
-    </content-card> -->
+      <a href="https://www.youtube.com/watch?v=3Om9ssTm194"
+        >https://www.youtube.com/watch?v=3Om9ssTm194</a
+      >
+      <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592"
+        >https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a
+      >
+      <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4"
+        >https://www.youtube.com/watch?v=oYmKOgeoOz4</a
+      >
+      <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU"
+        >https://www.youtube.com/watch?v=Gi8LUnhP5yU</a
+      >
+    </content-card> 
+  </section-wrapper>
 </template>
 
 <script>
-import ContentCard from "./ContentCard.vue"
+import ContentCard from "./ContentCard.vue";
+import SectionWrapper from "./SectionWrapper.vue";
 
 export default {
   name: "ExerciseComponent",
-  components: { ContentCard },
+  components: { ContentCard, SectionWrapper },
 };
 </script>
 
 <style scoped>
-/*.chunk {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  position: static;
-  background-color: #f8f8f8;
-  box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  position: static;
-  width: 50%;
-  height: 100%;
-  margin: 24px 0 24px 0;
-}*/
 
 </style>

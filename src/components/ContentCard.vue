@@ -1,13 +1,13 @@
 <template>
-  <div class="card">
-    <slot />
-  </div>
+    <div class="card">
+      <slot />
+    </div>
 </template>
 
 <script>
 export default {
   name: "ContentCard",
-}
+};
 </script>
 
 <style scoped>
@@ -17,7 +17,7 @@ export default {
   align-items: flex-start;
 
   position: static;
-  min-width: 50%;
+  width: 50%;
   max-width: 700px;
   height: 100%;
   padding: 24px;
@@ -27,4 +27,5 @@ export default {
   box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
   border-radius: 8px;
 }
+
 </style>
