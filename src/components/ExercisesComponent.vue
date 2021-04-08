@@ -18,36 +18,39 @@
     <content-card>
       <h3>Tim Urban</h3>
       <p>Liest folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
-      <a
-        href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"
-        >Artificial Intelligence Revolution (Teil I)</a
-      >
-      <a
-        href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html"
-        >Artificial Intelligence Revolution (Teil II)</a
-      >
+
+      <link-prevue url="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"></link-prevue>
+
+
+      <link-prevue url="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html"></link-prevue>
       <p>
         oder als Video bis 1h05m:
-        <a href="https://youtu.be/LUvNrm7yrJM?t=26m53s"
-          >https://youtu.be/LUvNrm7yrJM?t=26m53s</a
-        >
+        <link-prevue url="https://youtu.be/LUvNrm7yrJM?t=26m53s"></link-prevue>
       </p>
     </content-card>
     <content-card>
       <h3>Max Tegmark</h3>
       <p>Text und Bilder weiter unten sowie folgende zwei Videos</p>
-      <a href="https://www.youtube.com/watch?v=3Om9ssTm194"
+      <!-- <a href="https://www.youtube.com/watch?v=3Om9ssTm194"
         >https://www.youtube.com/watch?v=3Om9ssTm194</a
-      >
-      <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592"
+      > -->
+      <link-prevue url="https://www.youtube.com/watch?v=3Om9ssTm194"></link-prevue>
+
+      <!-- <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592"
         >https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a
-      >
-      <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4"
+      > -->
+      <link-prevue url="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592"></link-prevue>
+
+      <!-- <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4"
         >https://www.youtube.com/watch?v=oYmKOgeoOz4</a
-      >
-      <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU"
+      > -->
+      <link-prevue url="https://www.youtube.com/watch?v=oYmKOgeoOz4"></link-prevue>
+
+      <!-- <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU"
         >https://www.youtube.com/watch?v=Gi8LUnhP5yU</a
-      >
+      > -->
+      <link-prevue url="https://www.youtube.com/watch?v=Gi8LUnhP5yU"></link-prevue>
+
     </content-card>
   </section-wrapper>
 </template>
@@ -55,10 +58,11 @@
 <script>
 import ContentCard from "./ContentCard.vue";
 import SectionWrapper from "./SectionWrapper.vue";
+import LinkPrevue from "./LinkPrevue.vue"
 
 export default {
   name: "ExerciseComponent",
-  components: { ContentCard, SectionWrapper },
+  components: { ContentCard, SectionWrapper, LinkPrevue },
 };
 </script>
 
