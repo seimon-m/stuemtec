@@ -27,17 +27,15 @@
       </li>
     </ul>
     <img
-      src="https://exorciser.ch/_media/di/two/spark/leben3-0.png?w=600&amp;tok=f0e5de"
-      alt=""
-    />
+      src="../assets/leben3-0.png">
   </content-card>
 </template>
 
 <script>
 import ContentCard from "./ContentCard.vue";
 export default {
-  components: { ContentCard },
   name: "Section2Component",
+  components: { ContentCard },
 };
 </script>
 

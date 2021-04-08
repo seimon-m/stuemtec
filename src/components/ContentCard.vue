@@ -17,7 +17,8 @@ export default {
   align-items: flex-start;
 
   position: static;
-  width: 50%;
+  min-width: 50%;
+  max-width: 700px;
   height: 100%;
   padding: 24px;
   margin: 24px 0 24px 0;

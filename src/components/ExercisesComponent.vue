@@ -1,6 +1,5 @@
 <template>
-  <div class="chunk">
-    <div class="intro">
+    <content-card>
       <h1>Auftrag im Unterricht</h1>
       <p>Wählt eine der drei aktuelle Autoren über KI</p>
       <ol>
@@ -18,8 +17,8 @@
         </li>
       </ol>
       <p>Tragt ein, welchen Autor ihr Ausgewählt habt</p>
-    </div>
-    <content-card>
+    </content-card>
+    <!-- <content-card>
       <h2>Tim Urban</h2>
       <p>Liest folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
       <a
@@ -59,8 +58,7 @@
       <a href="https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592">https://www.youtube.com/watch?v=1MqukDzhlqA&amp;t=592</a>
       <a href="https://www.youtube.com/watch?v=oYmKOgeoOz4">https://www.youtube.com/watch?v=oYmKOgeoOz4</a>
       <a href="https://www.youtube.com/watch?v=Gi8LUnhP5yU">https://www.youtube.com/watch?v=Gi8LUnhP5yU</a>
-    </content-card>
-  </div>
+    </content-card> -->
 </template>
 
 <script>
@@ -73,7 +71,7 @@ export default {
 </script>
 
 <style scoped>
-.chunk {
+/*.chunk {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,6 +90,6 @@ export default {
   width: 50%;
   height: 100%;
   margin: 24px 0 24px 0;
-}
+}*/
 
 </style>
