@@ -49,6 +49,7 @@ h3{
 
 p{
     font-size: 1rem;
+    line-height: 1.4rem;
 }
 
 a{
