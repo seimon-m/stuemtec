@@ -3,6 +3,10 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> 
     </div> -->
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
     <router-view />
 </template>
 <script>
@@ -20,15 +24,34 @@ export default {
    --grey3: #d9d9d9;
    --grey4: #b6b6b6;
    --pink: #D742FB; 
+   font-size: 16px;
+}
 
+body {
+    background-color: var(--grey2);
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--black);
+}
+
+h1{
+    font-size: 3.125rem;
+}
+
+h2{
+    font-size: 2.375rem;
+}
+
+h3{
+    font-size: 1.813rem;
+}
+
+p{
+    font-size: 1rem;
 }
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: var(--black);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -46,7 +69,5 @@ export default {
 #nav a.router-link-exact-active {
     color: #42b983;
 }
-body {
-    background-color: #e5e5e5;
-}
+
 </style>
