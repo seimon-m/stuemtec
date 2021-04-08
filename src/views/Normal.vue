@@ -1,4 +1,6 @@
 <template>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
  <div class="headerimage"></div>
   <div class="container__total">
     <div class="container__sidebar-main">
@@ -178,6 +180,8 @@ body {
   color: #000;
   font-size: 14px;
   line-height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -216,7 +220,8 @@ a {
 
 .headerimage {
   height: 333px;
-  background-color: #afafaf;
+  background-color: hsla(0, 0.00%, 68.67%, 1.00);
+  background-image:
 }
 
 .container__total {
@@ -265,10 +270,12 @@ a {
 
 .container_navlink.layer2 {
   padding-left: 38px;
+  font-weight: 400;
 }
 
 .container_navlink.layer3 {
   padding-left: 72px;
+  font-weight: 300;
 }
 
 .container__top {
@@ -311,8 +318,10 @@ a {
   background-color: #fff;
 }
 
-..container__logo {
+.container__logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container__content {
