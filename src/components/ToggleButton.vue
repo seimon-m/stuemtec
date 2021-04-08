@@ -82,6 +82,7 @@ export default {
     background-color: rgba(0, 0, 0, 0);
     z-index: 3;
     outline: none;
+    cursor: pointer;
 }
 .right {
     left: 75px;

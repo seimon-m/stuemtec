@@ -1,10 +1,13 @@
 <template>
     <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <router-view v-slot="{ Component }">
-        <transition name="slide">
+        <transition name="scale" mode="out-in">
             <component :is="Component" />
         </transition>
     </router-view>
@@ -16,48 +19,53 @@ export default {
 };
 </script>
 <style>
-:root{
-   --white: #ffffff;
-   --black: #000000; 
-   --grey1: #fbfbfb;
-   --grey2: #f8f8f8;
-   --grey3: #d9d9d9;
-   --grey4: #b6b6b6;
-   
-   --pink: #D742FB; 
-   font-size: 16px;
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --grey1: #fbfbfb;
+    --grey2: #f8f8f8;
+    --grey3: #d9d9d9;
+    --grey4: #b6b6b6;
+
+    --pink: #d742fb;
+    font-size: 16px;
 }
 
 body {
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(
+        to top,
+        #f3e7e9 0%,
+        #e3eeff 99%,
+        #e3eeff 100%
+    );
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--black);
     line-height: 1.6rem;
 }
 
-h1{
+h1 {
     font-size: 3.125rem;
     line-height: 3.3rem;
 }
 
-h2{
+h2 {
     font-size: 2.375rem;
     line-height: 2.375rem;
 }
 
-h3{
+h3 {
     font-size: 1.438rem;
     line-height: 1.438rem;
 }
 
-p{
+p {
     font-size: 1rem;
 }
 
-a{
-    color: #D742FB;
+a {
+    color: #d742fb;
     text-decoration: none;
 }
 
@@ -85,34 +93,14 @@ a{
     line-height: 1;
 }
 
-
-
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.75s ease-out;
+.scale-enter-active,
+.scale-leave-active {
+    transition: all 0.3s 0.5s ease-in-out;
 }
 
-
-.slide-enter-to {
-  position: absolute;
-  right: 0;
-}
-
-
-.slide-enter-from {
-  position: absolute;
-  right: -100%;
-}
-
-
-.slide-leave-to {
-  position: absolute;
-  left: -100%;
-}
-
-
-.slide-leave-from {
-  position: absolute;
-  left: 0;
+.scale-enter-from,
+.scale-leave-to {
+    opacity: 0;
+    transform: scale(0.8);
 }
 </style>
