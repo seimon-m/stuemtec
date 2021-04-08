@@ -44,7 +44,7 @@ h2{
 }
 
 h3{
-    font-size: 1.813rem;
+    font-size: 1.438rem;
 }
 
 p{
