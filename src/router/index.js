@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Focus from '../views/Focus.vue'
+import Normal from '../views/Normal.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/focus',
     name: 'Focus',
     component: Focus
+  },
+  {
+    path: '/normal',
+    name: 'Normal',
+    component: Normal
   },
 ]
 
