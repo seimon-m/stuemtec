@@ -1,6 +1,9 @@
 <template>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
  <div class="headerimage"></div>
   <div class="container__total">
     <div class="container__sidebar-main">
@@ -78,7 +81,7 @@
       <div class="container__main">
         <div class="container__top">
           <p class="string">Sie befinden sich hier: exorciser.ch » Digital Ideation » Rowdyruffs » KICKPROG.H20 » Loops</p>
-          <div class="searchbar">Suchen</div>
+          <div class="searchbar"><span class="material-icons md-18">search</span></div>
         </div>
         <div class="container__switch">
           <Btn @click="goToFocus()">Focus</Btn>
@@ -176,7 +179,7 @@ export default {
 <style scoped>
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000;
   font-size: 14px;
   line-height: 20px;
@@ -221,7 +224,9 @@ a {
 .headerimage {
   height: 333px;
   background-color: hsla(0, 0.00%, 68.67%, 1.00);
-  background-image:
+  background-image: url(https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80);
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .container__total {
@@ -239,7 +244,7 @@ a {
   display: flex;
   width: 1216px;
   align-items: stretch;
-  box-shadow: 0 0 4px 7px hsla(0, 0%, 66.3%, 0.25);
+  box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
 }
 
 .container__sidebar {
@@ -293,12 +298,17 @@ a {
   padding: 8px 16px;
   border: 1px solid #d9d9d9;
   background-color: #f8f8f8;
+  min-width: 150px;
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 .container__switch {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding:48px 0px;
 }
 
 .switch {
@@ -316,6 +326,11 @@ a {
   height: 130px;
   border-radius: 130px;
   background-color: #fff;
+  background-image: url(https://pbs.twimg.com/profile_images/989078190307110912/7qd53cM6_400x400.jpg);
+  background-position: 50% 50%;
+  background-size: contain;
+  border: 1px solid #d9d9d9;
+
 }
 
 .container__logo {
@@ -354,5 +369,8 @@ a {
 .overline {
   text-transform: uppercase;
 }
+
+.material-icons.md-18 { font-size: 18px; }
+
 
 </style>
