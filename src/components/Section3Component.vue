@@ -22,6 +22,7 @@
           nicht mehr, aber kein Quantensprung in der Qualität des Denkens. Wie
           sieht Künstliche Schaulogik aus? oder Künstliche
         </li>
+        <br>
         <li>
           Die meisten KI Diskussionen gehen von einem materialistischen Weltbild
           aus, das selbst bekannteste Neuro- und Bewusstseinsforscher (z.B.
