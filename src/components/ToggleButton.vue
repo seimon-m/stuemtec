@@ -21,11 +21,23 @@
 
 <script>
 import { gsap } from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
+gsap.registerPlugin(TextPlugin);
 
 export default {
     props: {
-        nameLeft: String,
-        nameRight: String,
+        nameLeft: {
+            type: String,
+            default: "left",
+        },
+        nameRight: {
+            type: String,
+            default: "right",
+        },
+        startPosition: {
+            type: String,
+            default: "left",
+        },
     },
     data() {
         return {
@@ -43,6 +55,11 @@ export default {
             this.$emit("clicker", "left");
             gsap.to(".switch", { duration: 1, ease: "power2.out", x: 0 });
         },
+    },
+    mounted() {
+        if (this.startPosition === "right") {
+            gsap.to(".switch", { duration: 0, x: 72 });
+        }
     },
 };
 </script>
