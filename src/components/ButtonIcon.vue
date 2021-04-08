@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .button {
     height: 2rem;
     padding: 0;

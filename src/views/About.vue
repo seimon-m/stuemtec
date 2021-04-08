@@ -12,7 +12,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import ToggleButton from '../components/ToggleButton.vue'
 
 export default {
-  name: 'Home',
+  name: 'About',
   components: {
     HelloWorld,
     ToggleButton
@@ -24,5 +24,3 @@ export default {
     }
 }
 </script>
-
-    ToggleButton
