@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="button-container">
         <button
             class="button left"
             @click="leftClick"
@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.button-container {
     position: relative;
     width: 150px;
     height: 40px;
