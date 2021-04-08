@@ -54,14 +54,5 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 1.5em;
-  text-align: left;
-}
 
-p,
-li {
-  font-size: 1em;
-  text-align: left;
-}
 </style>

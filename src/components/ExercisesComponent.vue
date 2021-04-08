@@ -21,7 +21,7 @@
     </div>
     <content-card>
       <h2>Tim Urban</h2>
-      <p>List folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
+      <p>Liest folgende Texte (Teil 1+2) (ca. 1 Stunde)</p>
       <a
         href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"
         >Artificial Intelligence Revolution (Teil I)</a
@@ -94,44 +94,4 @@ export default {
   margin: 24px 0 24px 0;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  position: static;
-  width: 50%;
-  height: 100%;
-  padding: 24px;
-  margin: 24px 0 24px 0;
-
-  background-color: white;
-  box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
-  border-radius: 8px;
-}
-
-h1 {
-  text-align: left;
-  font-size: 1.5em;
-  margin-top: 8px;
-}
-
-h2 {
-  text-align: left;
-}
-
-p {
-  font-size: 1em;
-  text-align: left;
-}
-
-li {
-  text-align: left;
-}
-
-a {
-  text-align: left;
-  text-decoration: none;
-  color: #ff87ff;
-}
 </style>

@@ -37,18 +37,5 @@ export default {
 </script>
 
 <style scoped>
-img {
-  size: 100%;
-  align-self: center;
-}
 
-p,
-li {
-  font-size: 1em;
-  text-align: left;
-}
-
-.img-description {
-  font-size: 0.75em;
-}
 </style>

@@ -26,19 +26,4 @@ export default {
   box-shadow: 0px 4px 7px rgba(169, 169, 169, 0.25);
   border-radius: 8px;
 }
-
-h1 {
-  font-size: 1.5em;
-  margin-top: 8px;
-}
-
-p {
-  font-size: 1em;
-  text-align: left;
-}
-
-.description {
-  font-size: 0.75em;
-  margin: 0;
-}
 </style>
