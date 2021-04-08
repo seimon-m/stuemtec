@@ -23,6 +23,7 @@ export default {
    --grey2: #f8f8f8;
    --grey3: #d9d9d9;
    --grey4: #b6b6b6;
+   
    --pink: #D742FB; 
    font-size: 16px;
 }
