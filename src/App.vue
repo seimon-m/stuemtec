@@ -1,35 +1,5 @@
 <template>
     <head>
-        <!-- Primary Meta Tags -->
-        <title>stuemtec</title>
-        <meta name="title" content="stuemtec" />
-        <meta
-            name="description"
-            content="Experimental proof-of-concept for the Digital Ideation Studio Emerging Technologies. The idea is to build a special focus mode for an online learning wiki and add micro animation for an experimental UX."
-        />
-
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://stuemtec-focus.netlify.app/" />
-        <meta property="og:title" content="stuemtec" />
-        <meta
-            property="og:description"
-            content="Experimental proof-of-concept for the Digital Ideation Studio Emerging Technologies. The idea is to build a special focus mode for an online learning wiki and add micro animation for an experimental UX."
-        />
-        <meta property="og:image" content="" />
-
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-            property="twitter:url"
-            content="https://stuemtec-focus.netlify.app/"
-        />
-        <meta property="twitter:title" content="stuemtec" />
-        <meta
-            property="twitter:description"
-            content="Experimental proof-of-concept for the Digital Ideation Studio Emerging Technologies. The idea is to build a special focus mode for an online learning wiki and add micro animation for an experimental UX."
-        />
-        <meta property="twitter:image" content="" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
