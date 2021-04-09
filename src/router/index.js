@@ -18,11 +18,6 @@ const routes = [
     name: 'Focus',
     component: Focus
   },
-  {
-    path: '/normal',
-    name: 'Normal',
-    component: Normal
-  },
 ]
 
 const router = createRouter({

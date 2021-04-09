@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Focus logo" src="../assets/logo.png">
+    <HelloWorld msg="Welcome to stuemtec | Focus"/>
     <toggle-button nameLeft="Normal" nameRight="Fokus" @clicker="logger($event)"/>
   </div>
 </template>

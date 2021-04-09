@@ -1,6 +1,5 @@
 <template>
     <div class="test">
-        <h1>HALLOO VELLOOOOO</h1>
         <h3>Tech stack</h3>
         <p>Framework: vue.js (Version 3) <a>https://v3.vuejs.org/guide/introduction.html</a></p>
         <p>Animation Library: GSAP <a>https://greensock.com/get-started/</a></p>
@@ -14,7 +13,7 @@ import { gsap } from "gsap";
 export default {
     name: "TestComponent",
     mounted() {
-        gsap.to(".test", { y: -300 , duration: 3, ease: "bounce" });
+        gsap.to(".test", { x: 100 , duration: 3, ease: "bounce" });
     },
 };
 </script>
