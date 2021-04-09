@@ -3,6 +3,8 @@ This is a experimental proof-of-concept for the [Digital Ideation](https://www.h
 
 This prototyp was built during three days.
 
+![Figma Demo](src/assets/figma.gif)
+
 ## Project setup
 ```
 yarn install
