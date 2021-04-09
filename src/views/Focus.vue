@@ -44,7 +44,7 @@ export default {
     methods: {
         goToNormal(message) {
             if (message === "left") {
-                this.$router.push("/normal");
+                this.$router.push("/");
             }
         },
     },
