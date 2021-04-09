@@ -1,9 +1,8 @@
 # stuemtec | Project Focus
-This is a experimental proof-of-concept for the [Digital Ideation](https://www.hslu.ch/en/lucerne-school-of-information-technology/degree-programs/bachelor/digital-ideation/) Studio Emerging Technologies. The idea is to build a special focus mode for an online learning wiki and add micro animation for an experimental UX. The focus mode should improve the the reading experience, reduce distraction and gain more concentration while reading. For this, we divided the content into chunks, removed many UI elements and created a new hierarchy.
-
-This prototyp was built during three days.
 
 ![Figma Demo](src/assets/figma.gif)
+
+This is a experimental proof-of-concept for the [Digital Ideation](https://www.hslu.ch/en/lucerne-school-of-information-technology/degree-programs/bachelor/digital-ideation/) Studio Emerging Technologies. The idea is to build a special focus mode for an online learning wiki and add micro animation for an experimental UX. The focus mode should improve the reading experience, reduce distraction and gain more concentration while reading. For this, we divided the content into chunks, removed many UI elements and created a new hierarchy. The whole prototyp was built during three days.
 
 ## Project setup
 ```
